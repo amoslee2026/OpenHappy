@@ -1,0 +1,34 @@
+OpenHappy — D2D HiPi symmetric AXI4 protocol layer
+Copyright (c) 2025 OpenHappy Team
+
+Licensed under the PolyForm Free Trial License 1.0.0 — `LICENSE` holds the license as one document:
+Part I reproduces the complete PolyForm text verbatim, Part II adds conditions that prevail over it.
+What that means in practice:
+
+- Evaluation is permitted for less than 32 consecutive calendar days.
+- Scope is limited to the source code (`code/`, `verify/` and their filelists, macros, scripts and
+  build files) and the design documents (`docs/` and the root documents). The standard, the
+  protocol/interface/register/pin definitions, ideas and methods, your own designs and RTL, and any
+  simulation, synthesis or fabrication outputs are outside the licensed material.
+- Distribution is not granted: you may not distribute copies of this software or of works based on
+  it, including forks, binaries, packaged releases or generated netlists.
+- Commercial or production use requires a separate written license from OpenHappy Team. This
+  repository has no public ordering channel; contact the team directly.
+- Patent license is included in the license text (§Patent License): it covers patent claims the
+  licensor can license or becomes able to license and that you would infringe by using the software.
+  Under §Patent Defense it ends immediately if you make a written claim that the software infringes
+  or contributes to infringement of any patent.
+- Modification requires prior written authorization: Part II of `LICENSE` withdraws the "Changes and
+  New Works License" unless OpenHappy Team authorizes you in writing, and vests the IP in authorized
+  modifications and derivatives in OpenHappy Team. Where it conflicts with Part I, Part II prevails.
+
+This is a source-available license, not an OSI-approved open source license, and it has no SPDX
+license identifier, so tooling that detects licenses will report it as unknown or custom.
+
+Third-party material: none. The RTL contains no vendor PDK cells, no vendor SRAM or PHY simulation
+models, and no third-party macros. The three generated register files
+(`logic_phy/apb_csr_top_rf.v`, `link_layer/link_layer_rf.v`, `link_layer/link_layer_apb_reg_sync.v`)
+carry a neutral "generated, do not edit" note instead of a generator header.
+
+Development tooling: the RTL was developed with BabelPro, the closed-source professional edition of
+the open-source Babel project. BabelPro is not distributed with this repository.
