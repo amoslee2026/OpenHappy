@@ -28,8 +28,9 @@ interface"** (parts 1-4; part 5, 2.5D package, is out of scope).
 - No analog PHY and no PDK models are included. `code/design/rtl_v/top/d2d_ana_top_stub.sv`
   (450 pins) and `phy_model_stub.sv` (242 pins) exist only so an analog-PHY integration can be
   elaborated; their bodies are empty and they are not part of the shipped TB filelist.
-- Repository is **not** under version control at the time of writing; treat files as unrecoverable
-  without a manual backup.
+- Published as the source-available repository <https://github.com/amoslee2026/OpenHappy> (branch
+  `main`). Commit messages state intent; `git log` is the change history. `sim/`, `temp/` and
+  tool-state directories stay git-ignored.
 
 ## 2. Layout
 

@@ -174,6 +174,10 @@ tooling statements. In short:
   existing make/script arguments) is explicitly permitted and is not a modification. Your own
   pre-existing specifications, testbenches and integration code are unaffected.
 
+Public hosting: this repository is published publicly by the copyright holder. That publication is
+not a grant to recipients, and the hosting platform's read/download/fork mechanics extend nothing
+beyond `LICENSE` — a copy you make, including a platform fork, stays subject to the terms above.
+
 The RTL is an independent implementation: it contains no vendor PDK cells and no vendor SRAM/PHY
 simulation models. Copyright headers of the original internal sources were removed as part of this
 source release. The three generated register files (`logic_phy/apb_csr_top_rf.v`,

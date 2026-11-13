@@ -25,6 +25,13 @@ What that means in practice:
 This is a source-available license, not an OSI-approved open source license, and it has no SPDX
 license identifier, so tooling that detects licenses will report it as unknown or custom.
 
+Public hosting: this repository is published publicly by the copyright holder on
+<https://github.com/amoslee2026/OpenHappy>. Publication by the copyright holder is not a grant to
+recipients, and the hosting platform's read/download/fork mechanics extend nothing beyond
+`LICENSE`: any copy a recipient makes, including a platform fork, remains subject to the terms
+above. §2 of Part II requires written authorization for modification, so a fork may not be turned
+into a modified distribution without one.
+
 Third-party material: none. The RTL contains no vendor PDK cells, no vendor SRAM or PHY simulation
 models, and no third-party macros. The three generated register files
 (`logic_phy/apb_csr_top_rf.v`, `link_layer/link_layer_rf.v`, `link_layer/link_layer_apb_reg_sync.v`)
