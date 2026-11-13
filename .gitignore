@@ -10,9 +10,6 @@ run.log
 sim.out
 d2d_axi_txn.log
 
-# Internal library (not part of the source release)
-/code/common/
-
 # Tooling state and scratch space
 .skills_local
 .logs/
